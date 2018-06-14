@@ -6,7 +6,6 @@ namespace Dashboard_OlapDataProvider {
     public partial class Form1 : RibbonForm {
         public Form1() {
             InitializeComponent();
-            dashboardDesigner1.CreateRibbon();
 
             #region #OLAPDataSource
             OlapConnectionParameters olapParams = new OlapConnectionParameters();

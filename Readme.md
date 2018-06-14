@@ -1,9 +1,15 @@
 # How to bind a dashboard to an OLAP cube using DashboardOlapDataSource
 
 
-<p>The following example demonstrates how to bind a dashboard to an OLAP cube using <a href="https://documentation.devexpress.com/#Dashboard/clsDevExpressDashboardCommonDashboardOlapDataSourcetopic">DashboardOlapDataSource</a>.</p>
-The DashboardOlapDataSource allows you to establish a connection to the OLAP cube by specifying a connection string.<br /><br />
+The following example demonstrates how to bind a dashboard to an OLAP cube using <a href="https://documentation.devexpress.com/#Dashboard/clsDevExpressDashboardCommonDashboardOlapDataSourcetopic">DashboardOlapDataSource</a>.
 
-<br/>
+The DashboardOlapDataSource allows you to establish a connection to the OLAP cube by specifying a connection string.
+
+
+![](~/images/screenshot.png)
+
+See also the [WinForms Designer - Examples](https://docs.devexpress.com/Dashboard/117083/examples/winforms-designer-examples) section.
+
+
 
 
