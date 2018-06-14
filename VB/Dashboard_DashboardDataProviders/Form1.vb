@@ -1,6 +1,5 @@
 ﻿Imports DevExpress.XtraBars.Ribbon
 Imports DevExpress.DashboardCommon
-Imports DevExpress.DataAccess
 Imports DevExpress.DataAccess.ConnectionParameters
 
 Namespace Dashboard_OlapDataProvider
@@ -9,17 +8,13 @@ Namespace Dashboard_OlapDataProvider
 
         Public Sub New()
             InitializeComponent()
-            dashboardDesigner1.CreateRibbon()
 
 '            #Region "#OLAPDataSource"
             Dim olapParams As New OlapConnectionParameters()
-            olapParams.ConnectionString = "provider=MSOLAP;" _
-                                & ControlChars.CrLf & _
-                                "data source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll;" _
-                                & ControlChars.CrLf & _
-                                "initial catalog=Adventure Works DW Standard Edition;" _
-                                & ControlChars.CrLf & _
-                                "cube name=Adventure Works;"
+            olapParams.ConnectionString = "provider=MSOLAP;
+                                  data source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll;
+                                  initial catalog=Adventure Works DW Standard Edition;
+                                  cube name=Adventure Works;"
 
             Dim olapDataSource As New DashboardOlapDataSource(olapParams)
             olapDataSource.Fill()
@@ -37,9 +32,7 @@ Namespace Dashboard_OlapDataProvider
             pivot.DataSource = olapDataSource
             pivot.Values.Add(New Measure("[Measures].[Sales Amount]"))
             pivot.Columns.Add(New Dimension("[Sales Channel].[Sales Channel].[Sales Channel]"))
-            pivot.Rows.AddRange(New Dimension("[Sales Territory].[Sales Territory].[Group]", 1), _
-                                New Dimension("[Sales Territory].[Sales Territory].[Country]", 1), _
-                                New Dimension("[Sales Territory].[Sales Territory].[Region]", 1))
+            pivot.Rows.AddRange(New Dimension("[Sales Territory].[Sales Territory].[Group]", 1), New Dimension("[Sales Territory].[Sales Territory].[Country]", 1), New Dimension("[Sales Territory].[Sales Territory].[Region]", 1))
             pivot.AutoExpandRowGroups = True
 
             Dim chart As New ChartDashboardItem()

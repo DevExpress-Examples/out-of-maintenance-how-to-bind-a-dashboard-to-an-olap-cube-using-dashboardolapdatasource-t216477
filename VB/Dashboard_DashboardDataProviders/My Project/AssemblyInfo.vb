@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("Dashboard_DashboardDataProviders")>
-<Assembly: AssemblyCopyright("Copyright ©  2014")>
+<Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 
