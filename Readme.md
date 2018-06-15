@@ -8,7 +8,9 @@ The DashboardOlapDataSource allows you to establish a connection to the OLAP cub
 
 ![](https://github.com/DevExpress-Examples/how-to-bind-a-dashboard-to-an-olap-cube-using-dashboardolapdatasource-t216477/blob/18.1.3%2B/images/screenshot.png)
 
-See also the [WinForms Designer - Examples](https://docs.devexpress.com/Dashboard/117083/examples/winforms-designer-examples) section.
+See also the documentation:
+- [WinForms Designer - Examples](https://docs.devexpress.com/Dashboard/117083/examples/winforms-designer-examples)
+- [Binding to Data](https://docs.devexpress.com/Dashboard/116771/main-features/binding-to-data)
 
 
 
