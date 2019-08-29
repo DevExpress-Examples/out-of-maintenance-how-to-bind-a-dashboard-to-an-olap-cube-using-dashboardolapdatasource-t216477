@@ -26,7 +26,8 @@ namespace Dashboard_OlapDataProvider {
         void InitializeDashboardItems() {
             IDashboardDataSource olapDataSource = dashboardDesigner1.Dashboard.DataSources[0];
 
-            PivotDashboardItem pivot = new PivotDashboardItem(); pivot.DataSource = olapDataSource;
+            PivotDashboardItem pivot = new PivotDashboardItem(); 
+            pivot.DataSource = olapDataSource;
             pivot.Values.Add(new Measure("[Measures].[Sales Amount]"));
             pivot.Columns.Add(new Dimension("[Sales Channel].[Sales Channel].[Sales Channel]"));
             pivot.Rows.AddRange(
@@ -35,7 +36,8 @@ namespace Dashboard_OlapDataProvider {
                 new Dimension("[Sales Territory].[Sales Territory].[Region]", 1));
             pivot.AutoExpandRowGroups = true;
 
-            ChartDashboardItem chart = new ChartDashboardItem(); chart.DataSource = olapDataSource;
+            ChartDashboardItem chart = new ChartDashboardItem(); 
+            chart.DataSource = olapDataSource;
             chart.Arguments.Add(new Dimension("[Sales Territory].[Sales Territory].[Country]"));
             chart.Panes.Add(new ChartPane());
             SimpleSeries salesAmountSeries = new SimpleSeries(SimpleSeriesType.Bar);
