@@ -11,10 +11,10 @@ Namespace Dashboard_OlapDataProvider
 
 '			#Region "#OLAPDataSource"
 			Dim olapParams As New OlapConnectionParameters()
-			olapParams.ConnectionString = "provider=MSOLAP;
-                                  data source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll;
-                                  initial catalog=Adventure Works DW Standard Edition;
-                                  cube name=Adventure Works;"
+			olapParams.ConnectionString = "provider=MSOLAP;" & ControlChars.CrLf & _
+"                                  data source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll;" & ControlChars.CrLf & _
+"                                  initial catalog=Adventure Works DW Standard Edition;" & ControlChars.CrLf & _
+"                                  cube name=Adventure Works;"
 
 			Dim olapDataSource As New DashboardOlapDataSource(olapParams)
 			olapDataSource.Fill()

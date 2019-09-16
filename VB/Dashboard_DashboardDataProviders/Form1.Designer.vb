@@ -815,20 +815,20 @@
 			Me.floatingObjectSendToBackItem1 = New DevExpress.XtraRichEdit.UI.FloatingObjectSendToBackItem()
 			Me.floatingObjectSendBehindTextItem1 = New DevExpress.XtraRichEdit.UI.FloatingObjectSendBehindTextItem()
 			Me.dashboardPopupMenu1 = New DevExpress.DashboardWin.DashboardPopupMenu(Me.components)
-			CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.dashboardBackstageViewControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dashboardBackstageViewControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.dashboardBackstageViewControl1.SuspendLayout()
 			Me.backstageViewClientControl1.SuspendLayout()
-			CType(Me.dashboardBarAndDockingController1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.dashboardBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.repositoryItemSpinEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.textBoxEditorBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.dashboardPopupMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dashboardBarAndDockingController1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dashboardBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.repositoryItemSpinEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.textBoxEditorBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dashboardPopupMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' dashboardDesigner1
@@ -886,25 +886,25 @@
 			' 
 			' dashboardBackstageNewButton1
 			' 
-			Me.dashboardBackstageNewButton1.Glyph = (CType(resources.GetObject("dashboardBackstageNewButton1.Glyph"), System.Drawing.Image))
+			Me.dashboardBackstageNewButton1.Glyph = (DirectCast(resources.GetObject("dashboardBackstageNewButton1.Glyph"), System.Drawing.Image))
 			Me.dashboardBackstageNewButton1.Name = "dashboardBackstageNewButton1"
 			Me.dashboardBackstageNewButton1.ServiceProvider = Me.dashboardDesigner1
 			' 
 			' dashboardBackstageOpenButton1
 			' 
-			Me.dashboardBackstageOpenButton1.Glyph = (CType(resources.GetObject("dashboardBackstageOpenButton1.Glyph"), System.Drawing.Image))
+			Me.dashboardBackstageOpenButton1.Glyph = (DirectCast(resources.GetObject("dashboardBackstageOpenButton1.Glyph"), System.Drawing.Image))
 			Me.dashboardBackstageOpenButton1.Name = "dashboardBackstageOpenButton1"
 			Me.dashboardBackstageOpenButton1.ServiceProvider = Me.dashboardDesigner1
 			' 
 			' dashboardBackstageSaveButton1
 			' 
-			Me.dashboardBackstageSaveButton1.Glyph = (CType(resources.GetObject("dashboardBackstageSaveButton1.Glyph"), System.Drawing.Image))
+			Me.dashboardBackstageSaveButton1.Glyph = (DirectCast(resources.GetObject("dashboardBackstageSaveButton1.Glyph"), System.Drawing.Image))
 			Me.dashboardBackstageSaveButton1.Name = "dashboardBackstageSaveButton1"
 			Me.dashboardBackstageSaveButton1.ServiceProvider = Me.dashboardDesigner1
 			' 
 			' dashboardBackstageSaveAsButton1
 			' 
-			Me.dashboardBackstageSaveAsButton1.Glyph = (CType(resources.GetObject("dashboardBackstageSaveAsButton1.Glyph"), System.Drawing.Image))
+			Me.dashboardBackstageSaveAsButton1.Glyph = (DirectCast(resources.GetObject("dashboardBackstageSaveAsButton1.Glyph"), System.Drawing.Image))
 			Me.dashboardBackstageSaveAsButton1.Name = "dashboardBackstageSaveAsButton1"
 			Me.dashboardBackstageSaveAsButton1.ServiceProvider = Me.dashboardDesigner1
 			' 
@@ -1819,71 +1819,71 @@
 			galleryItem1.Caption = "DevExpress Style"
 			galleryItem1.Checked = True
 			galleryItem1.Hint = "DevExpress Style"
-			galleryItem1.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem1.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem1.Tag = "DevExpress Style"
 			galleryItem2.Caption = "DevExpress Dark Style"
 			galleryItem2.Hint = "DevExpress Dark Style"
-			galleryItem2.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage1"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem2.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage1"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem2.Tag = "DevExpress Dark Style"
 			galleryItem3.Caption = "Office 2016 Colorful"
 			galleryItem3.Hint = "Office 2016 Colorful"
-			galleryItem3.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage2"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem3.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage2"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem3.Tag = "Office 2016 Colorful"
 			galleryItem4.Caption = "Office 2016 Dark"
 			galleryItem4.Hint = "Office 2016 Dark"
-			galleryItem4.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage3"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem4.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage3"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem4.Tag = "Office 2016 Dark"
 			galleryItem5.Caption = "Office 2016 Black"
 			galleryItem5.Hint = "Office 2016 Black"
-			galleryItem5.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage4"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem5.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage4"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem5.Tag = "Office 2016 Black"
 			galleryItem6.Caption = "The Bezier"
 			galleryItem6.Hint = "The Bezier"
-			galleryItem6.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage5"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem6.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage5"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem6.Tag = "The Bezier"
 			galleryItem7.Caption = "Office 2013 White"
 			galleryItem7.Hint = "Office 2013 White"
-			galleryItem7.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage6"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem7.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage6"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem7.Tag = "Office 2013"
 			galleryItem8.Caption = "Office 2013 Dark Gray"
 			galleryItem8.Hint = "Office 2013 Dark Gray"
-			galleryItem8.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage7"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem8.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage7"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem8.Tag = "Office 2013 Dark Gray"
 			galleryItem9.Caption = "Office 2013 Light Gray"
 			galleryItem9.Hint = "Office 2013 Light Gray"
-			galleryItem9.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage8"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem9.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage8"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem9.Tag = "Office 2013 Light Gray"
 			galleryItem10.Caption = "Office 2010 Blue"
 			galleryItem10.Hint = "Office 2010 Blue"
-			galleryItem10.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage9"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem10.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage9"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem10.Tag = "Office 2010 Blue"
 			galleryItem11.Caption = "Office 2010 Black"
 			galleryItem11.Hint = "Office 2010 Black"
-			galleryItem11.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage10"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem11.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage10"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem11.Tag = "Office 2010 Black"
 			galleryItem12.Caption = "Office 2010 Silver"
 			galleryItem12.Hint = "Office 2010 Silver"
-			galleryItem12.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage11"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem12.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage11"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem12.Tag = "Office 2010 Silver"
 			galleryItem13.Caption = "Visual Studio 2013 Blue"
 			galleryItem13.Hint = "Visual Studio 2013 Blue"
-			galleryItem13.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage12"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem13.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage12"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem13.Tag = "Visual Studio 2013 Blue"
 			galleryItem14.Caption = "Visual Studio 2013 Dark"
 			galleryItem14.Hint = "Visual Studio 2013 Dark"
-			galleryItem14.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage13"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem14.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage13"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem14.Tag = "Visual Studio 2013 Dark"
 			galleryItem15.Caption = "Visual Studio 2013 Light"
 			galleryItem15.Hint = "Visual Studio 2013 Light"
-			galleryItem15.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage14"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem15.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage14"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem15.Tag = "Visual Studio 2013 Light"
 			galleryItem16.Caption = "Seven Classic"
 			galleryItem16.Hint = "Seven Classic"
-			galleryItem16.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage15"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem16.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage15"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem16.Tag = "Seven Classic"
 			galleryItem17.Caption = "Visual Studio 2010"
 			galleryItem17.Hint = "Visual Studio 2010"
-			galleryItem17.ImageOptions.SvgImage = (CType(resources.GetObject("resource.SvgImage16"), DevExpress.Utils.Svg.SvgImage))
+			galleryItem17.ImageOptions.SvgImage = (DirectCast(resources.GetObject("resource.SvgImage16"), DevExpress.Utils.Svg.SvgImage))
 			galleryItem17.Tag = "VS2010"
 			galleryItemGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { galleryItem1, galleryItem2, galleryItem3, galleryItem4, galleryItem5, galleryItem6, galleryItem7, galleryItem8, galleryItem9, galleryItem10, galleryItem11, galleryItem12, galleryItem13, galleryItem14, galleryItem15, galleryItem16, galleryItem17})
 			galleryItemGroup2.Caption = "Bonus Skins"
@@ -1902,7 +1902,7 @@
 			Me.dashboardSkinsBarItem1.Gallery.ItemImagePadding = skinPaddingEdges1
 			Me.dashboardSkinsBarItem1.Gallery.ScaleImages = DevExpress.Utils.DefaultBoolean.False
 			Me.dashboardSkinsBarItem1.Id = 87
-			Me.dashboardSkinsBarItem1.ImageOptions.SvgImage = (CType(resources.GetObject("dashboardSkinsBarItem1.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage))
+			Me.dashboardSkinsBarItem1.ImageOptions.SvgImage = (DirectCast(resources.GetObject("dashboardSkinsBarItem1.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage))
 			Me.dashboardSkinsBarItem1.Name = "dashboardSkinsBarItem1"
 			' 
 			' filteringRibbonPageGroup1
@@ -2363,52 +2363,52 @@
 			' 
 			Me.galleryChartLegendPositionItem1.Gallery.ColumnCount = 3
 			chartLegendInsideTopLeftHorizontalGalleryItem1.Caption = ""
-			chartLegendInsideTopLeftHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image"), System.Drawing.Image))
+			chartLegendInsideTopLeftHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image"), System.Drawing.Image))
 			chartLegendInsideTopCenterHorizontalGalleryItem1.Caption = ""
-			chartLegendInsideTopCenterHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image1"), System.Drawing.Image))
+			chartLegendInsideTopCenterHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image1"), System.Drawing.Image))
 			chartLegendInsideTopRightHorizontalGalleryItem1.Caption = ""
-			chartLegendInsideTopRightHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image2"), System.Drawing.Image))
+			chartLegendInsideTopRightHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image2"), System.Drawing.Image))
 			chartLegendInsideBottomLeftHorizontalGalleryItem1.Caption = ""
-			chartLegendInsideBottomLeftHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image3"), System.Drawing.Image))
+			chartLegendInsideBottomLeftHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image3"), System.Drawing.Image))
 			chartLegendInsideBottomCenterHorizontalGalleryItem1.Caption = ""
-			chartLegendInsideBottomCenterHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image4"), System.Drawing.Image))
+			chartLegendInsideBottomCenterHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image4"), System.Drawing.Image))
 			chartLegendInsideBottomRightHorizontalGalleryItem1.Caption = ""
-			chartLegendInsideBottomRightHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image5"), System.Drawing.Image))
+			chartLegendInsideBottomRightHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image5"), System.Drawing.Image))
 			chartInsideHorizontalLegendGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendInsideTopLeftHorizontalGalleryItem1, chartLegendInsideTopCenterHorizontalGalleryItem1, chartLegendInsideTopRightHorizontalGalleryItem1, chartLegendInsideBottomLeftHorizontalGalleryItem1, chartLegendInsideBottomCenterHorizontalGalleryItem1, chartLegendInsideBottomRightHorizontalGalleryItem1})
 			chartLegendInsideTopLeftVerticalGalleryItem1.Caption = ""
-			chartLegendInsideTopLeftVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image6"), System.Drawing.Image))
+			chartLegendInsideTopLeftVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image6"), System.Drawing.Image))
 			chartLegendInsideTopCenterVerticalGalleryItem1.Caption = ""
-			chartLegendInsideTopCenterVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image7"), System.Drawing.Image))
+			chartLegendInsideTopCenterVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image7"), System.Drawing.Image))
 			chartLegendInsideTopRightVerticalGalleryItem1.Caption = ""
-			chartLegendInsideTopRightVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image8"), System.Drawing.Image))
+			chartLegendInsideTopRightVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image8"), System.Drawing.Image))
 			chartLegendInsideBottomLeftVerticalGalleryItem1.Caption = ""
-			chartLegendInsideBottomLeftVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image9"), System.Drawing.Image))
+			chartLegendInsideBottomLeftVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image9"), System.Drawing.Image))
 			chartLegendInsideBottomCenterVerticalGalleryItem1.Caption = ""
-			chartLegendInsideBottomCenterVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image10"), System.Drawing.Image))
+			chartLegendInsideBottomCenterVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image10"), System.Drawing.Image))
 			chartLegendInsideBottomRightVerticalGalleryItem1.Caption = ""
-			chartLegendInsideBottomRightVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image11"), System.Drawing.Image))
+			chartLegendInsideBottomRightVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image11"), System.Drawing.Image))
 			chartInsideVerticalLegendGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendInsideTopLeftVerticalGalleryItem1, chartLegendInsideTopCenterVerticalGalleryItem1, chartLegendInsideTopRightVerticalGalleryItem1, chartLegendInsideBottomLeftVerticalGalleryItem1, chartLegendInsideBottomCenterVerticalGalleryItem1, chartLegendInsideBottomRightVerticalGalleryItem1})
 			chartLegendOutsideTopLeftHorizontalGalleryItem1.Caption = ""
-			chartLegendOutsideTopLeftHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image12"), System.Drawing.Image))
+			chartLegendOutsideTopLeftHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image12"), System.Drawing.Image))
 			chartLegendOutsideTopCenterHorizontalGalleryItem1.Caption = ""
-			chartLegendOutsideTopCenterHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image13"), System.Drawing.Image))
+			chartLegendOutsideTopCenterHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image13"), System.Drawing.Image))
 			chartLegendOutsideTopRightHorizontalGalleryItem1.Caption = ""
-			chartLegendOutsideTopRightHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image14"), System.Drawing.Image))
+			chartLegendOutsideTopRightHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image14"), System.Drawing.Image))
 			chartLegendOutsideBottomLeftHorizontalGalleryItem1.Caption = ""
-			chartLegendOutsideBottomLeftHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image15"), System.Drawing.Image))
+			chartLegendOutsideBottomLeftHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image15"), System.Drawing.Image))
 			chartLegendOutsideBottomCenterHorizontalGalleryItem1.Caption = ""
-			chartLegendOutsideBottomCenterHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image16"), System.Drawing.Image))
+			chartLegendOutsideBottomCenterHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image16"), System.Drawing.Image))
 			chartLegendOutsideBottomRightHorizontalGalleryItem1.Caption = ""
-			chartLegendOutsideBottomRightHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image17"), System.Drawing.Image))
+			chartLegendOutsideBottomRightHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image17"), System.Drawing.Image))
 			chartOutsideHorizontalLegendGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendOutsideTopLeftHorizontalGalleryItem1, chartLegendOutsideTopCenterHorizontalGalleryItem1, chartLegendOutsideTopRightHorizontalGalleryItem1, chartLegendOutsideBottomLeftHorizontalGalleryItem1, chartLegendOutsideBottomCenterHorizontalGalleryItem1, chartLegendOutsideBottomRightHorizontalGalleryItem1})
 			chartLegendOutsideTopLeftVerticalGalleryItem1.Caption = ""
-			chartLegendOutsideTopLeftVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image18"), System.Drawing.Image))
+			chartLegendOutsideTopLeftVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image18"), System.Drawing.Image))
 			chartLegendOutsideTopRightVerticalGalleryItem1.Caption = ""
-			chartLegendOutsideTopRightVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image19"), System.Drawing.Image))
+			chartLegendOutsideTopRightVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image19"), System.Drawing.Image))
 			chartLegendOutsideBottomLeftVerticalGalleryItem1.Caption = ""
-			chartLegendOutsideBottomLeftVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image20"), System.Drawing.Image))
+			chartLegendOutsideBottomLeftVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image20"), System.Drawing.Image))
 			chartLegendOutsideBottomRightVerticalGalleryItem1.Caption = ""
-			chartLegendOutsideBottomRightVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image21"), System.Drawing.Image))
+			chartLegendOutsideBottomRightVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image21"), System.Drawing.Image))
 			chartOutsideVerticalLegendGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendOutsideTopLeftVerticalGalleryItem1, chartLegendOutsideTopRightVerticalGalleryItem1, chartLegendOutsideBottomLeftVerticalGalleryItem1, chartLegendOutsideBottomRightVerticalGalleryItem1})
 			Me.galleryChartLegendPositionItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { chartInsideHorizontalLegendGalleryGroup1, chartInsideVerticalLegendGalleryGroup1, chartOutsideHorizontalLegendGalleryGroup1, chartOutsideVerticalLegendGalleryGroup1})
 			Me.galleryChartLegendPositionItem1.Gallery.ImageSize = New System.Drawing.Size(32, 32)
@@ -2427,54 +2427,54 @@
 			' 
 			' 
 			chartBarSeriesGalleryItem1.Caption = ""
-			chartBarSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image22"), System.Drawing.Image))
+			chartBarSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image22"), System.Drawing.Image))
 			chartStackedBarSeriesGalleryItem1.Caption = ""
-			chartStackedBarSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image23"), System.Drawing.Image))
+			chartStackedBarSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image23"), System.Drawing.Image))
 			chartFullStackedBarSeriesGalleryItem1.Caption = ""
-			chartFullStackedBarSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image24"), System.Drawing.Image))
+			chartFullStackedBarSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image24"), System.Drawing.Image))
 			chartBarSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartBarSeriesGalleryItem1, chartStackedBarSeriesGalleryItem1, chartFullStackedBarSeriesGalleryItem1})
 			chartPointSeriesGalleryItem1.Caption = ""
-			chartPointSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image25"), System.Drawing.Image))
+			chartPointSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image25"), System.Drawing.Image))
 			chartLineSeriesGalleryItem1.Caption = ""
-			chartLineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image26"), System.Drawing.Image))
+			chartLineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image26"), System.Drawing.Image))
 			chartStackedLineSeriesGalleryItem1.Caption = ""
-			chartStackedLineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image27"), System.Drawing.Image))
+			chartStackedLineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image27"), System.Drawing.Image))
 			chartFullStackedLineSeriesGalleryItem1.Caption = ""
-			chartFullStackedLineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image28"), System.Drawing.Image))
+			chartFullStackedLineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image28"), System.Drawing.Image))
 			chartStepLineSeriesGalleryItem1.Caption = ""
-			chartStepLineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image29"), System.Drawing.Image))
+			chartStepLineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image29"), System.Drawing.Image))
 			chartSplineSeriesGalleryItem1.Caption = ""
-			chartSplineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image30"), System.Drawing.Image))
+			chartSplineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image30"), System.Drawing.Image))
 			chartPointLineSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartPointSeriesGalleryItem1, chartLineSeriesGalleryItem1, chartStackedLineSeriesGalleryItem1, chartFullStackedLineSeriesGalleryItem1, chartStepLineSeriesGalleryItem1, chartSplineSeriesGalleryItem1})
 			chartAreaSeriesGalleryItem1.Caption = ""
-			chartAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image31"), System.Drawing.Image))
+			chartAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image31"), System.Drawing.Image))
 			chartStackedAreaSeriesGalleryItem1.Caption = ""
-			chartStackedAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image32"), System.Drawing.Image))
+			chartStackedAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image32"), System.Drawing.Image))
 			chartFullStackedAreaSeriesGalleryItem1.Caption = ""
-			chartFullStackedAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image33"), System.Drawing.Image))
+			chartFullStackedAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image33"), System.Drawing.Image))
 			chartStepAreaSeriesGalleryItem1.Caption = ""
-			chartStepAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image34"), System.Drawing.Image))
+			chartStepAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image34"), System.Drawing.Image))
 			chartSplineAreaSeriesGalleryItem1.Caption = ""
-			chartSplineAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image35"), System.Drawing.Image))
+			chartSplineAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image35"), System.Drawing.Image))
 			chartStackedSplineAreaSeriesGalleryItem1.Caption = ""
-			chartStackedSplineAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image36"), System.Drawing.Image))
+			chartStackedSplineAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image36"), System.Drawing.Image))
 			chartFullStackedSplineAreaSeriesGalleryItem1.Caption = ""
-			chartFullStackedSplineAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image37"), System.Drawing.Image))
+			chartFullStackedSplineAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image37"), System.Drawing.Image))
 			chartAreaSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartAreaSeriesGalleryItem1, chartStackedAreaSeriesGalleryItem1, chartFullStackedAreaSeriesGalleryItem1, chartStepAreaSeriesGalleryItem1, chartSplineAreaSeriesGalleryItem1, chartStackedSplineAreaSeriesGalleryItem1, chartFullStackedSplineAreaSeriesGalleryItem1})
 			chartSideBySideRangeBarSeriesGalleryItem1.Caption = ""
-			chartSideBySideRangeBarSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image38"), System.Drawing.Image))
+			chartSideBySideRangeBarSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image38"), System.Drawing.Image))
 			chartRangeAreaSeriesGalleryItem1.Caption = ""
-			chartRangeAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image39"), System.Drawing.Image))
+			chartRangeAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image39"), System.Drawing.Image))
 			chartRangeSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartSideBySideRangeBarSeriesGalleryItem1, chartRangeAreaSeriesGalleryItem1})
 			chartWeightedSeriesGalleryItem1.Caption = ""
-			chartWeightedSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image40"), System.Drawing.Image))
+			chartWeightedSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image40"), System.Drawing.Image))
 			chartBubbleSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartWeightedSeriesGalleryItem1})
 			chartHighLowCloseSeriesGalleryItem1.Caption = ""
-			chartHighLowCloseSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image41"), System.Drawing.Image))
+			chartHighLowCloseSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image41"), System.Drawing.Image))
 			chartCandleStickSeriesGalleryItem1.Caption = ""
-			chartCandleStickSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image42"), System.Drawing.Image))
+			chartCandleStickSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image42"), System.Drawing.Image))
 			chartStockSeriesGalleryItem1.Caption = ""
-			chartStockSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image43"), System.Drawing.Image))
+			chartStockSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image43"), System.Drawing.Image))
 			chartFinancialSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartHighLowCloseSeriesGalleryItem1, chartCandleStickSeriesGalleryItem1, chartStockSeriesGalleryItem1})
 			Me.galleryChartSeriesTypeItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { chartBarSeriesGalleryGroup1, chartPointLineSeriesGalleryGroup1, chartAreaSeriesGalleryGroup1, chartRangeSeriesGalleryGroup1, chartBubbleSeriesGalleryGroup1, chartFinancialSeriesGalleryGroup1})
 			Me.galleryChartSeriesTypeItem1.Gallery.ImageSize = New System.Drawing.Size(32, 32)
@@ -2598,52 +2598,52 @@
 			' 
 			Me.galleryScatterChartLegendPositionItem1.Gallery.ColumnCount = 3
 			chartLegendInsideTopLeftHorizontalGalleryItem2.Caption = ""
-			chartLegendInsideTopLeftHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image44"), System.Drawing.Image))
+			chartLegendInsideTopLeftHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image44"), System.Drawing.Image))
 			chartLegendInsideTopCenterHorizontalGalleryItem2.Caption = ""
-			chartLegendInsideTopCenterHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image45"), System.Drawing.Image))
+			chartLegendInsideTopCenterHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image45"), System.Drawing.Image))
 			chartLegendInsideTopRightHorizontalGalleryItem2.Caption = ""
-			chartLegendInsideTopRightHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image46"), System.Drawing.Image))
+			chartLegendInsideTopRightHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image46"), System.Drawing.Image))
 			chartLegendInsideBottomLeftHorizontalGalleryItem2.Caption = ""
-			chartLegendInsideBottomLeftHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image47"), System.Drawing.Image))
+			chartLegendInsideBottomLeftHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image47"), System.Drawing.Image))
 			chartLegendInsideBottomCenterHorizontalGalleryItem2.Caption = ""
-			chartLegendInsideBottomCenterHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image48"), System.Drawing.Image))
+			chartLegendInsideBottomCenterHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image48"), System.Drawing.Image))
 			chartLegendInsideBottomRightHorizontalGalleryItem2.Caption = ""
-			chartLegendInsideBottomRightHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image49"), System.Drawing.Image))
+			chartLegendInsideBottomRightHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image49"), System.Drawing.Image))
 			chartInsideHorizontalLegendGalleryGroup2.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendInsideTopLeftHorizontalGalleryItem2, chartLegendInsideTopCenterHorizontalGalleryItem2, chartLegendInsideTopRightHorizontalGalleryItem2, chartLegendInsideBottomLeftHorizontalGalleryItem2, chartLegendInsideBottomCenterHorizontalGalleryItem2, chartLegendInsideBottomRightHorizontalGalleryItem2})
 			chartLegendInsideTopLeftVerticalGalleryItem2.Caption = ""
-			chartLegendInsideTopLeftVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image50"), System.Drawing.Image))
+			chartLegendInsideTopLeftVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image50"), System.Drawing.Image))
 			chartLegendInsideTopCenterVerticalGalleryItem2.Caption = ""
-			chartLegendInsideTopCenterVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image51"), System.Drawing.Image))
+			chartLegendInsideTopCenterVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image51"), System.Drawing.Image))
 			chartLegendInsideTopRightVerticalGalleryItem2.Caption = ""
-			chartLegendInsideTopRightVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image52"), System.Drawing.Image))
+			chartLegendInsideTopRightVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image52"), System.Drawing.Image))
 			chartLegendInsideBottomLeftVerticalGalleryItem2.Caption = ""
-			chartLegendInsideBottomLeftVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image53"), System.Drawing.Image))
+			chartLegendInsideBottomLeftVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image53"), System.Drawing.Image))
 			chartLegendInsideBottomCenterVerticalGalleryItem2.Caption = ""
-			chartLegendInsideBottomCenterVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image54"), System.Drawing.Image))
+			chartLegendInsideBottomCenterVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image54"), System.Drawing.Image))
 			chartLegendInsideBottomRightVerticalGalleryItem2.Caption = ""
-			chartLegendInsideBottomRightVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image55"), System.Drawing.Image))
+			chartLegendInsideBottomRightVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image55"), System.Drawing.Image))
 			chartInsideVerticalLegendGalleryGroup2.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendInsideTopLeftVerticalGalleryItem2, chartLegendInsideTopCenterVerticalGalleryItem2, chartLegendInsideTopRightVerticalGalleryItem2, chartLegendInsideBottomLeftVerticalGalleryItem2, chartLegendInsideBottomCenterVerticalGalleryItem2, chartLegendInsideBottomRightVerticalGalleryItem2})
 			chartLegendOutsideTopLeftHorizontalGalleryItem2.Caption = ""
-			chartLegendOutsideTopLeftHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image56"), System.Drawing.Image))
+			chartLegendOutsideTopLeftHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image56"), System.Drawing.Image))
 			chartLegendOutsideTopCenterHorizontalGalleryItem2.Caption = ""
-			chartLegendOutsideTopCenterHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image57"), System.Drawing.Image))
+			chartLegendOutsideTopCenterHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image57"), System.Drawing.Image))
 			chartLegendOutsideTopRightHorizontalGalleryItem2.Caption = ""
-			chartLegendOutsideTopRightHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image58"), System.Drawing.Image))
+			chartLegendOutsideTopRightHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image58"), System.Drawing.Image))
 			chartLegendOutsideBottomLeftHorizontalGalleryItem2.Caption = ""
-			chartLegendOutsideBottomLeftHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image59"), System.Drawing.Image))
+			chartLegendOutsideBottomLeftHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image59"), System.Drawing.Image))
 			chartLegendOutsideBottomCenterHorizontalGalleryItem2.Caption = ""
-			chartLegendOutsideBottomCenterHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image60"), System.Drawing.Image))
+			chartLegendOutsideBottomCenterHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image60"), System.Drawing.Image))
 			chartLegendOutsideBottomRightHorizontalGalleryItem2.Caption = ""
-			chartLegendOutsideBottomRightHorizontalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image61"), System.Drawing.Image))
+			chartLegendOutsideBottomRightHorizontalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image61"), System.Drawing.Image))
 			chartOutsideHorizontalLegendGalleryGroup2.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendOutsideTopLeftHorizontalGalleryItem2, chartLegendOutsideTopCenterHorizontalGalleryItem2, chartLegendOutsideTopRightHorizontalGalleryItem2, chartLegendOutsideBottomLeftHorizontalGalleryItem2, chartLegendOutsideBottomCenterHorizontalGalleryItem2, chartLegendOutsideBottomRightHorizontalGalleryItem2})
 			chartLegendOutsideTopLeftVerticalGalleryItem2.Caption = ""
-			chartLegendOutsideTopLeftVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image62"), System.Drawing.Image))
+			chartLegendOutsideTopLeftVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image62"), System.Drawing.Image))
 			chartLegendOutsideTopRightVerticalGalleryItem2.Caption = ""
-			chartLegendOutsideTopRightVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image63"), System.Drawing.Image))
+			chartLegendOutsideTopRightVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image63"), System.Drawing.Image))
 			chartLegendOutsideBottomLeftVerticalGalleryItem2.Caption = ""
-			chartLegendOutsideBottomLeftVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image64"), System.Drawing.Image))
+			chartLegendOutsideBottomLeftVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image64"), System.Drawing.Image))
 			chartLegendOutsideBottomRightVerticalGalleryItem2.Caption = ""
-			chartLegendOutsideBottomRightVerticalGalleryItem2.ImageOptions.Image = (CType(resources.GetObject("resource.Image65"), System.Drawing.Image))
+			chartLegendOutsideBottomRightVerticalGalleryItem2.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image65"), System.Drawing.Image))
 			chartOutsideVerticalLegendGalleryGroup2.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { chartLegendOutsideTopLeftVerticalGalleryItem2, chartLegendOutsideTopRightVerticalGalleryItem2, chartLegendOutsideBottomLeftVerticalGalleryItem2, chartLegendOutsideBottomRightVerticalGalleryItem2})
 			Me.galleryScatterChartLegendPositionItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { chartInsideHorizontalLegendGalleryGroup2, chartInsideVerticalLegendGalleryGroup2, chartOutsideHorizontalLegendGalleryGroup2, chartOutsideVerticalLegendGalleryGroup2})
 			Me.galleryScatterChartLegendPositionItem1.Gallery.ImageSize = New System.Drawing.Size(32, 32)
@@ -3140,25 +3140,25 @@
 			' 
 			Me.galleryRangeFilterSeriesTypeItem1.Gallery.ColumnCount = 3
 			rangeLineSeriesGalleryItem1.Caption = ""
-			rangeLineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image66"), System.Drawing.Image))
+			rangeLineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image66"), System.Drawing.Image))
 			rangeStackedLineSeriesGalleryItem1.Caption = ""
-			rangeStackedLineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image67"), System.Drawing.Image))
+			rangeStackedLineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image67"), System.Drawing.Image))
 			rangeFullStackedLineSeriesGalleryItem1.Caption = ""
-			rangeFullStackedLineSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image68"), System.Drawing.Image))
+			rangeFullStackedLineSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image68"), System.Drawing.Image))
 			rangePointLineSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { rangeLineSeriesGalleryItem1, rangeStackedLineSeriesGalleryItem1, rangeFullStackedLineSeriesGalleryItem1})
 			rangeAreaSeriesGalleryItem1.Caption = ""
-			rangeAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image69"), System.Drawing.Image))
+			rangeAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image69"), System.Drawing.Image))
 			rangeStackedAreaSeriesGalleryItem1.Caption = ""
-			rangeStackedAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image70"), System.Drawing.Image))
+			rangeStackedAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image70"), System.Drawing.Image))
 			rangeFullStackedAreaSeriesGalleryItem1.Caption = ""
-			rangeFullStackedAreaSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image71"), System.Drawing.Image))
+			rangeFullStackedAreaSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image71"), System.Drawing.Image))
 			rangeAreaSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { rangeAreaSeriesGalleryItem1, rangeStackedAreaSeriesGalleryItem1, rangeFullStackedAreaSeriesGalleryItem1})
 			rangeBarSeriesGalleryItem1.Caption = ""
-			rangeBarSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image72"), System.Drawing.Image))
+			rangeBarSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image72"), System.Drawing.Image))
 			rangeStackedBarSeriesGalleryItem1.Caption = ""
-			rangeStackedBarSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image73"), System.Drawing.Image))
+			rangeStackedBarSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image73"), System.Drawing.Image))
 			rangeFullStackedBarSeriesGalleryItem1.Caption = ""
-			rangeFullStackedBarSeriesGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image74"), System.Drawing.Image))
+			rangeFullStackedBarSeriesGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image74"), System.Drawing.Image))
 			rangeBarSeriesGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { rangeBarSeriesGalleryItem1, rangeStackedBarSeriesGalleryItem1, rangeFullStackedBarSeriesGalleryItem1})
 			Me.galleryRangeFilterSeriesTypeItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { rangePointLineSeriesGalleryGroup1, rangeAreaSeriesGalleryGroup1, rangeBarSeriesGalleryGroup1})
 			Me.galleryRangeFilterSeriesTypeItem1.Gallery.ImageSize = New System.Drawing.Size(32, 32)
@@ -3342,30 +3342,30 @@
 			' 
 			Me.galleryMapLegendPositionItem1.Gallery.ColumnCount = 3
 			mapLegendTopLeftVerticalGalleryItem1.Caption = ""
-			mapLegendTopLeftVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image75"), System.Drawing.Image))
+			mapLegendTopLeftVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image75"), System.Drawing.Image))
 			mapLegendTopCenterVerticalGalleryItem1.Caption = ""
-			mapLegendTopCenterVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image76"), System.Drawing.Image))
+			mapLegendTopCenterVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image76"), System.Drawing.Image))
 			mapLegendTopRightVerticalGalleryItem1.Caption = ""
-			mapLegendTopRightVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image77"), System.Drawing.Image))
+			mapLegendTopRightVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image77"), System.Drawing.Image))
 			mapLegendBottomLeftVerticalGalleryItem1.Caption = ""
-			mapLegendBottomLeftVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image78"), System.Drawing.Image))
+			mapLegendBottomLeftVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image78"), System.Drawing.Image))
 			mapLegendBottomCenterVerticalGalleryItem1.Caption = ""
-			mapLegendBottomCenterVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image79"), System.Drawing.Image))
+			mapLegendBottomCenterVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image79"), System.Drawing.Image))
 			mapLegendBottomRightVerticalGalleryItem1.Caption = ""
-			mapLegendBottomRightVerticalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image80"), System.Drawing.Image))
+			mapLegendBottomRightVerticalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image80"), System.Drawing.Image))
 			mapVerticalLegendGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { mapLegendTopLeftVerticalGalleryItem1, mapLegendTopCenterVerticalGalleryItem1, mapLegendTopRightVerticalGalleryItem1, mapLegendBottomLeftVerticalGalleryItem1, mapLegendBottomCenterVerticalGalleryItem1, mapLegendBottomRightVerticalGalleryItem1})
 			mapLegendTopLeftHorizontalGalleryItem1.Caption = ""
-			mapLegendTopLeftHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image81"), System.Drawing.Image))
+			mapLegendTopLeftHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image81"), System.Drawing.Image))
 			mapLegendTopCenterHorizontalGalleryItem1.Caption = ""
-			mapLegendTopCenterHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image82"), System.Drawing.Image))
+			mapLegendTopCenterHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image82"), System.Drawing.Image))
 			mapLegendTopRightHorizontalGalleryItem1.Caption = ""
-			mapLegendTopRightHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image83"), System.Drawing.Image))
+			mapLegendTopRightHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image83"), System.Drawing.Image))
 			mapLegendBottomLeftHorizontalGalleryItem1.Caption = ""
-			mapLegendBottomLeftHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image84"), System.Drawing.Image))
+			mapLegendBottomLeftHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image84"), System.Drawing.Image))
 			mapLegendBottomCenterHorizontalGalleryItem1.Caption = ""
-			mapLegendBottomCenterHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image85"), System.Drawing.Image))
+			mapLegendBottomCenterHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image85"), System.Drawing.Image))
 			mapLegendBottomRightHorizontalGalleryItem1.Caption = ""
-			mapLegendBottomRightHorizontalGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image86"), System.Drawing.Image))
+			mapLegendBottomRightHorizontalGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image86"), System.Drawing.Image))
 			mapHorizontalLegendGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { mapLegendTopLeftHorizontalGalleryItem1, mapLegendTopCenterHorizontalGalleryItem1, mapLegendTopRightHorizontalGalleryItem1, mapLegendBottomLeftHorizontalGalleryItem1, mapLegendBottomCenterHorizontalGalleryItem1, mapLegendBottomRightHorizontalGalleryItem1})
 			Me.galleryMapLegendPositionItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { mapVerticalLegendGalleryGroup1, mapHorizontalLegendGalleryGroup1})
 			Me.galleryMapLegendPositionItem1.Gallery.ImageSize = New System.Drawing.Size(32, 32)
@@ -3560,17 +3560,17 @@
 			' 
 			Me.galleryWeightedLegendPositionItem1.Gallery.ColumnCount = 3
 			mapWeightedLegendTopLeftGalleryItem1.Caption = ""
-			mapWeightedLegendTopLeftGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image87"), System.Drawing.Image))
+			mapWeightedLegendTopLeftGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image87"), System.Drawing.Image))
 			mapWeightedLegendTopCenterGalleryItem1.Caption = ""
-			mapWeightedLegendTopCenterGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image88"), System.Drawing.Image))
+			mapWeightedLegendTopCenterGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image88"), System.Drawing.Image))
 			mapWeightedLegendTopRightGalleryItem1.Caption = ""
-			mapWeightedLegendTopRightGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image89"), System.Drawing.Image))
+			mapWeightedLegendTopRightGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image89"), System.Drawing.Image))
 			mapWeightedLegendBottomLeftGalleryItem1.Caption = ""
-			mapWeightedLegendBottomLeftGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image90"), System.Drawing.Image))
+			mapWeightedLegendBottomLeftGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image90"), System.Drawing.Image))
 			mapWeightedLegendBottomCenterGalleryItem1.Caption = ""
-			mapWeightedLegendBottomCenterGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image91"), System.Drawing.Image))
+			mapWeightedLegendBottomCenterGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image91"), System.Drawing.Image))
 			mapWeightedLegendBottomRightGalleryItem1.Caption = ""
-			mapWeightedLegendBottomRightGalleryItem1.ImageOptions.Image = (CType(resources.GetObject("resource.Image92"), System.Drawing.Image))
+			mapWeightedLegendBottomRightGalleryItem1.ImageOptions.Image = (DirectCast(resources.GetObject("resource.Image92"), System.Drawing.Image))
 			mapWeightedLegendGalleryGroup1.Items.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItem() { mapWeightedLegendTopLeftGalleryItem1, mapWeightedLegendTopCenterGalleryItem1, mapWeightedLegendTopRightGalleryItem1, mapWeightedLegendBottomLeftGalleryItem1, mapWeightedLegendBottomCenterGalleryItem1, mapWeightedLegendBottomRightGalleryItem1})
 			Me.galleryWeightedLegendPositionItem1.Gallery.Groups.AddRange(New DevExpress.XtraBars.Ribbon.GalleryItemGroup() { mapWeightedLegendGalleryGroup1})
 			Me.galleryWeightedLegendPositionItem1.Gallery.ImageSize = New System.Drawing.Size(32, 32)
@@ -4882,7 +4882,7 @@
 			' 
 			' stylesRibbonPageGroup1
 			' 
-			Me.stylesRibbonPageGroup1.ImageOptions.Image = (CType(resources.GetObject("stylesRibbonPageGroup1.ImageOptions.Image"), System.Drawing.Image))
+			Me.stylesRibbonPageGroup1.ImageOptions.Image = (DirectCast(resources.GetObject("stylesRibbonPageGroup1.ImageOptions.Image"), System.Drawing.Image))
 			Me.stylesRibbonPageGroup1.ItemLinks.Add(Me.galleryChangeStyleItem1)
 			Me.stylesRibbonPageGroup1.Name = "stylesRibbonPageGroup1"
 			' 
@@ -5402,7 +5402,7 @@
 			' 
 			' tableAlignmentRibbonPageGroup1
 			' 
-			Me.tableAlignmentRibbonPageGroup1.ImageOptions.Image = (CType(resources.GetObject("tableAlignmentRibbonPageGroup1.ImageOptions.Image"), System.Drawing.Image))
+			Me.tableAlignmentRibbonPageGroup1.ImageOptions.Image = (DirectCast(resources.GetObject("tableAlignmentRibbonPageGroup1.ImageOptions.Image"), System.Drawing.Image))
 			Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopLeftAlignmentItem1)
 			Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleLeftAlignmentItem1)
 			Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomLeftAlignmentItem1)
@@ -5739,20 +5739,20 @@
 			Me.Name = "Form1"
 			Me.Ribbon = Me.ribbonControl1
 			Me.Text = "Dashboard Designer"
-			CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.dashboardBackstageViewControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dashboardBackstageViewControl1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.dashboardBackstageViewControl1.ResumeLayout(False)
 			Me.backstageViewClientControl1.ResumeLayout(False)
-			CType(Me.dashboardBarAndDockingController1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.dashboardBarController1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.repositoryItemSpinEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.textBoxEditorBarController1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.dashboardPopupMenu1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dashboardBarAndDockingController1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dashboardBarController1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.repositoryItemSpinEdit1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.textBoxEditorBarController1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dashboardPopupMenu1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 			Me.PerformLayout()
 
