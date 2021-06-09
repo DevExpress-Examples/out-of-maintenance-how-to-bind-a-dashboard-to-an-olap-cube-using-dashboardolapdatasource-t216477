@@ -1,3 +1,7 @@
+*Files to look at*:
+
+* [Form1.cs](./CS/Dashboard_DashboardDataProviders/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_DashboardDataProviders/Form1.vb))
+
 # How to Bind WinForms Dashboard to an OLAP Cube
 
 
@@ -9,8 +13,9 @@ The DashboardOlapDataSource allows you to specify a connection string and establ
 
 ![screenshot](/images/screenshot.png)
 
-See also the documentation:
-- [WinForms Designer - Examples](https://docs.devexpress.com/Dashboard/117083)
+## Documentation 
+
+- [Connecting to OLAP Cubes](https://docs.devexpress.com/Dashboard/113908)
 - [Binding to Data](https://docs.devexpress.com/Dashboard/116771)
 
 
